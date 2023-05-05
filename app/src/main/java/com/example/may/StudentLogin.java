@@ -42,7 +42,8 @@ public class StudentLogin extends AppCompatActivity {
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 progressDialog.dismiss();
                                 if(task.isSuccessful()){
-                                    Intent intent = new Intent(StudentLogin.this, MainActivity.class);
+                                    Intent intent = new Intent(StudentLogin.this, StudentDashboard.class);
+//                                    intent.putExtra("userid",id)
                                     startActivity(intent);
                                 }
                                 else{
