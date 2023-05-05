@@ -44,13 +44,13 @@
         android:text="Warden Login"
         android:textColor="#020202"
         android:textSize="25sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintBottom_toTopOf="@+id/etUsername"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnLogin"
         android:layout_width="281dp"
         android:layout_height="50dp"
         android:layout_marginStart="65dp"
@@ -65,10 +65,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintTop_toBottomOf="@+id/etPwd" />
 
     <EditText
-        android:id="@+id/textView5"
+        android:id="@+id/etUsername"
         android:layout_width="281dp"
         android:layout_height="50dp"
         android:layout_marginStart="65dp"
@@ -78,13 +78,13 @@
         android:hint="UserName"
         android:padding="15dp"
         android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintBottom_toTopOf="@+id/etPwd"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <EditText
-        android:id="@+id/textView6"
+        android:id="@+id/etPwd"
         android:layout_width="281dp"
         android:layout_height="50dp"
         android:layout_marginStart="65dp"
@@ -94,9 +94,9 @@
         android:hint="Password"
         android:padding="15dp"
         android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintBottom_toTopOf="@+id/btnLogin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toBottomOf="@+id/etUsername" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
